@@ -1,0 +1,15 @@
+# Ignorar archivo de configuración con datos sensibles
+src/edu/jdbc/crud/util/conexion_mysql.properties
+
+# Ignorar archivos de compilación (por si acaso)
+*.class
+
+# Ignorar carpetas del IDE (Eclipse, IntelliJ, etc.)
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+
+# Ignorar otros archivos temporales
+*.log
