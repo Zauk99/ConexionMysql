@@ -1,11 +1,14 @@
-# Ignorar archivo de configuración con datos sensibles
+# Ignorar archivo de configuración original
 src/edu/jdbc/crud/util/conexion_mysql.properties
+
+# Ignorar archivo copiado en carpeta de compilación
 bin/edu/jdbc/crud/util/conexion_mysql.properties
 
-# Ignorar archivos de compilación (por si acaso)
+# Ignorar clases compiladas
 *.class
+bin/
 
-# Ignorar carpetas del IDE (Eclipse, IntelliJ, etc.)
+# Ignorar carpetas del IDE
 /.idea/
 /*.iml
 /.classpath
